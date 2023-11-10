@@ -1,0 +1,320 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+    # Profile information
+    name: Hamid Shariati
+    tagline: Developer
+    avatar: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: me@hamidshariati.ir
+    phone: 0910 78 708 67
+    timezone: Asia/Tehran
+    citizenship: Islamic Republic of Iran
+    # website: HamidSharaiti.ir #do not add http://
+    linkedin: hmdshariati
+    # xing: hmdshariati
+    # github: hmdshariati
+    telegram: hamidshariati_ir # add your nickname without '@' sign
+    # gitlab: hmdshariati
+    # bitbucket: hmdshariati
+    # twitter: '@hmdshariati'
+    stack-overflow: 5987259/hamid-shariati # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://api.pdflayer.com/api/convert?access_key=97bcc52e85be512554054d35c3509976&document_url=https://cv1.hamidshariati.ir&page_size=A4&margin_top=&margin_bottom=&margin_left=&margin_right=&secret_key=cb8c114be04dbf93b451f6df31e4ce70
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Persian
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+        - idiom: Arabic
+          level: Basic
+
+    interests:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I'm so creative and motivated to invent new things.
+      I hope touch a lot of technologies. Recently I have learned a lot of
+      best practices in developing clean code according to SOLID principle.
+      I'm working on a lot of Design Patterns in PHP. 
+      Also I didn't forget to impove my soft skills and every day read some 
+      books and articles.
+education:
+    title: Education
+    info:
+      # - degree: MSc in Computer Science
+      #   university: University of Iranian
+      #   time: 2011 - 2012
+      #   details: |
+      #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #     pretium quis, sem.
+      #       - Bullet point
+      #       - Bullet point
+      - degree: BSc in Software Engineering
+        university: Iranian University
+        time: 2015 - 2017
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
+
+experiences:
+    title: Experiences
+    info:
+      - role: Back End Developer
+        time: 2022 - Present
+        company: Startup Drdr.ir, Tehran, Iran
+        details: |
+          As a developer I had to deliver some tasks in bothe backend and frontend at first.
+          After a while when the new version deployed on production, I started my work as a
+          backend developer specificly on laravel framework. Some of my specific point during 
+          this job are:
+            - working with Asterisk
+            - working with Design Patterns
+            - complete unit/feature test
+            - try to develop based on TDD
+      - role: Co-Founder - Developer
+        time: 2020 - 2022
+        company: Startup Adilar.com, Tehran, Iran
+        details: |
+          As a co-founder I managed the development of a log of part in adilar.com.
+          Adilar is an ATS for HR which enable recuritters to control workflows easily.
+          Some of best works that I have experieced in Adilar are:
+            - learn Laravel for the first time
+            - running CI/CD with gitlab
+            - Docker and docker-compose on production
+            - learn to code with VueJs/NuxtJs
+      - role: Developer
+        time: 2016 - 2020
+        company: IPM.ir, Tehran, Iran
+        details: |
+          During 4 years experienced a lot of technologies with test and fail.
+          Based platform which we have worked on it is ProcessMaker.com. An opensource 
+          BPMN2 platform in PHP Language.
+          I have experienced in features bellow:
+            - ProcessMaker
+            - ExtJs
+            - Linux
+            - Git
+            - gitlab
+      - role: Supporter
+        time: 2015 - 2016
+        company: TBCom.ir, Tehran, Iran
+        details: |
+          I started as an intern. After a while my dutiy was supporting client with phone and manage update patches. Fix some problems
+          I have experienced in features bellow:
+            - MS SQL Server
+            - Soft Skills
+      - role: IT Manager
+        time: 2014 - 2014
+        company: Dinawin, Tehran, Iran
+        details: |
+          As an IT Manager I was responsible to all of Issues about Network, Cameras, PCs and Servers
+          I have experienced in features bellow:
+            - ICDL
+            - Network+
+            - Server (Linux, Windows)
+
+
+certifications:
+      title: Certifications
+      list:
+        - name: Network+
+          start: 2014
+          end: 2014
+          organization: Noora
+          # credentialid: 111-222
+          credentialurl: nooranet.com
+          # credentialname: Google
+          # details: |
+          #   Details about cert. Lorem ipsum dolor sit amet, consectetur
+          #   adipiscing elit.
+          #   Nullam eget orci purus. Nullam ultrices neque nibh.
+          #   Aenean fermentum, felis vulputate suscipit accumsan,
+          #   sem enim bibendum augue, sed convallis arcu lacus at dui.
+          #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+          #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+          #   Praesent venenatis erat non augue suscipit consectetur.
+
+          #   Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+          #   fringilla vel. Ut euismod, sem sed vulputate venenatis,
+          #   justo diam viverra velit, sed rhoncus leo leo eu justo.
+          #   Suspendisse placerat risus ante, sed porta nisi blandit at.
+        - name: LPIC1 & 2
+          start: 2014
+          end:
+          organization: Anisa
+          # credentialid: 111-222
+          credentialurl: lpir.org
+          # credentialname: Github
+          # details: |
+          #   Older certification. Lorem ipsum dolor sit amet, consectetur
+          #   adipiscing elit.
+          #   Nullam eget orci purus. Nullam ultrices neque nibh.
+          #   Aenean fermentum, felis vulputate suscipit accumsan,
+          #   sem enim bibendum augue, sed convallis arcu lacus at dui.
+          #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+          #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+          #   Praesent venenatis erat non augue suscipit consectetur.
+
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Linux
+        level: 100%
+
+      - name: Docker
+        level: 100%
+
+      - name: Kubernetes
+        level: 20%
+
+      - name: Git
+        level: 100%
+
+      - name: Bash Scripting
+        level: 50%
+
+      - name: BPMS with ProcessMaker
+        level: 80%
+
+      - name: PHP & Laravel
+        level: 100%
+
+      - name: Python & Django
+        level: 50%
+
+      - name: Java
+        level: 40%
+
+      - name: C++
+        level: 30%
+
+      - name: Design Patterns
+        level: 50%
+
+      - name: SOLID DRY KISS
+        level: 90%
+
+      - name: OOP
+        level: 670%
+
+      - name: Javascript & jQuery & VueJs
+        level: 80%
+
+      # - name: Angular
+      #   level: 98%
+
+      - name: HTML5 & CSS & SASS
+        level: 95%
+
+      # - name: Ruby on Rails
+      #   level: 85%
+
+      # - name: Sketch & Photoshop
+      #   level: 60%
+
+      - name: TDD & BDD
+        level: 100%
+
+      - name: Team Lead
+        level: 70%
+
+footer: >
+    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
+# https://jobinja.ir/companies/liaservices/jobs/CgZr/%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-linux-system-administrator-%D8%AF%D8%B1-%D9%84%DB%8C%D8%A7-%D8%B3%D8%B1%D9%88%DB%8C%D8%B3?_ref=16
