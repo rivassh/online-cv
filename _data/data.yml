@@ -9,18 +9,18 @@ sidebar:
     # Profile information
     name: Hamid Shariati
     tagline: Developer
-    avatar: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: me@hamidshariati.ir
-    phone: 0910 78 708 67
+    # phone: 0910 78 708 67
     timezone: Asia/Tehran
     citizenship: Islamic Republic of Iran
     # website: HamidSharaiti.ir #do not add http://
-    linkedin: hmdshariati
+    # linkedin: hmdshariati
     # xing: hmdshariati
-    # github: hmdshariati
-    telegram: hamidshariati_ir # add your nickname without '@' sign
+    github: rivassh
+    # telegram: hamidshariati_ir # add your nickname without '@' sign
     # gitlab: hmdshariati
     # bitbucket: hmdshariati
     # twitter: '@hmdshariati'
@@ -86,7 +86,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Developer
+      - role: Fullstack Developer
         time: 2022 - Present
         company: Startup Drdr.ir, Tehran, Iran
         details: |
@@ -98,14 +98,15 @@ experiences:
             - working with Design Patterns
             - complete unit/feature test
             - try to develop based on TDD
-      - role: Co-Founder - Developer
+      - role: Co-Founder - CTO 
         time: 2020 - 2022
         company: Startup Adilar.com, Tehran, Iran
         details: |
-          As a co-founder I managed the development of a log of part in adilar.com.
+          As a co-founder and CTO I managed the development of a lot of parts in adilar.com.
           Adilar is an ATS for HR which enable recuritters to control workflows easily.
           Some of best works that I have experieced in Adilar are:
-            - learn Laravel for the first time
+            - learn Laravel    # linkedin: hmdshariati
+l for the first time
             - running CI/CD with gitlab
             - Docker and docker-compose on production
             - learn to code with VueJs/NuxtJs
