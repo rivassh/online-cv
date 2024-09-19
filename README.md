@@ -87,5 +87,5 @@ Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=hmdshariati/online-cv&type=Date)](https://star-history.com/#hmdshariati/online-cv&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=rivassh/online-cv&type=Date)](https://star-history.com/#rivassh/online-cv&Date)
 
