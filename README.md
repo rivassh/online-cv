@@ -47,7 +47,7 @@ Changes *_data/data.yml* will be visible after a while.
 * Get the repo into your machine 
 
 ```bash
-git clone https://github.com/hmdshariati/online-cv.git
+git clone https://github.com/rivassh/online-cv.git
 ```
 
 * Install required ruby gems
