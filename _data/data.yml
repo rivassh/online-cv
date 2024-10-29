@@ -337,7 +337,7 @@ skills:
 
 
     title: Deep on details
-    
+    toolset:
       - name: wordpress hooks
         level: 50%
     
@@ -365,6 +365,7 @@ skills:
 
     title: Learning in progress ...
     
+    toolset:
       - name: Kubernetes
         level: 20%
 
