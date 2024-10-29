@@ -25,9 +25,11 @@ sidebar:
     # bitbucket: hmdshariati
     # twitter: '@hmdshariati'
     stack-overflow: 5987259/hamid-shariati # Number/Username, e.g. 123456/alandoe
-    # codewars:
+    codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://api.pdflayer.com/api/convert?access_key=97bcc52e85be512554054d35c3509976&document_url=https://cv1.hamidshariati.ir&page_size=A4&margin_top=&margin_bottom=&margin_left=&margin_right=&secret_key=cb8c114be04dbf93b451f6df31e4ce70
+
+    portflio: https://hamidshariati.ir/portfolio
 
     languages:
       title: Languages
@@ -252,7 +254,7 @@ certifications:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills and Proficiency
 
     toolset:
       - name: Linux
@@ -261,11 +263,14 @@ skills:
       - name: Docker
         level: 100%
 
-      - name: Kubernetes
-        level: 20%
-
       - name: Git
         level: 100%
+
+      - name: Gitlab
+        level: 80%
+
+      - name: Github
+        level: 70%
 
       - name: Bash Scripting
         level: 50%
@@ -273,10 +278,10 @@ skills:
       - name: BPMS with ProcessMaker
         level: 80%
 
-      - name: PHP & Laravel
+      - name: PHP, Laravel, Yii, Symfony etc.
         level: 100%
 
-      - name: Python & Django
+      - name: Python, Django, Flask etc.
         level: 50%
 
       - name: Java
@@ -292,22 +297,37 @@ skills:
         level: 90%
 
       - name: OOP
-        level: 670%
+        level: 67%
 
-      - name: Javascript & jQuery & VueJs
+      - name: MVC
+        level: 100%
+
+      - name: SOAP
+        level: 90%
+
+      - name: MYSQL
+        level: 100%
+
+      - name: Clean Code
+        level: 90%
+
+      - name: REST API
+        level: 100%
+
+      - name: Javascript, jQuery, Bootstrap, VueJs etc
         level: 80%
-
-      # - name: Angular
-      #   level: 98%
 
       - name: HTML5 & CSS & SASS
         level: 95%
 
-      # - name: Ruby on Rails
-      #   level: 85%
+      - name: Wordpress
+        level: 50%
 
-      # - name: Sketch & Photoshop
-      #   level: 60%
+      - name: Ruby on Rails
+        level: 5%
+
+      - name: Sketch, Photoshop, figma etc.
+        level: 30%
 
       - name: TDD & BDD
         level: 100%
@@ -315,7 +335,46 @@ skills:
       - name: Team Lead
         level: 70%
 
+
+    title: Deep on details
+    
+      - name: wordpress hooks
+        level: 50%
+    
+      - name: Elementor Pro
+        level: 20%
+    
+      - name: Technical SEO
+        level: 50%
+    
+      - name: woocommerce
+        level: 50%
+    
+      - name: WHM
+        level: 60%
+    
+      - name: Cpanel
+        level: 80%
+
+      - name: Data structures and algorithm
+        level: 60%
+    
+      - name: Go Lang
+        level: 30%
+
+
+    title: Learning in progress ...
+    
+      - name: Kubernetes
+        level: 20%
+
+      - name: React and Angular
+        level: 5%
+    
+      - name: Coaching
+        level: 20%
+
 footer: >
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
 
-# https://jobinja.ir/companies/liaservices/jobs/CgZr/%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-linux-system-administrator-%D8%AF%D8%B1-%D9%84%DB%8C%D8%A7-%D8%B3%D8%B1%D9%88%DB%8C%D8%B3?_ref=16
+
