@@ -255,9 +255,9 @@ certifications:
 
 skills:
     
-
+    title: Skills and Proficiency
     toolset:
-      title: Skills and Proficiency
+      
       - name: Linux
         level: 100%
 
@@ -337,7 +337,6 @@ skills:
         level: 70%
 
 
-      title: Deep on details
       - name: wordpress hooks
         level: 50%
     
@@ -362,8 +361,6 @@ skills:
       - name: Go Lang
         level: 30%
 
-
-      title: Learning in progress ... 
       - name: Kubernetes
         level: 20%
 
