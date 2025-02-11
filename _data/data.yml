@@ -337,6 +337,7 @@ skills:
 
 
     title: Deep on details
+    
     toolset:
       - name: wordpress hooks
         level: 50%
