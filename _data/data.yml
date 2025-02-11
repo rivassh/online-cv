@@ -254,9 +254,10 @@ certifications:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills and Proficiency
+    
 
     toolset:
+      title: Skills and Proficiency
       - name: Linux
         level: 100%
 
@@ -337,8 +338,6 @@ skills:
 
 
     title: Deep on details
-    
-    toolset:
       - name: wordpress hooks
         level: 50%
     
@@ -364,9 +363,7 @@ skills:
         level: 30%
 
 
-    title: Learning in progress ...
-    
-    toolset:
+    title: Learning in progress ... 
       - name: Kubernetes
         level: 20%
 
