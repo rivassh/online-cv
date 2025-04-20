@@ -8,6 +8,17 @@
 {% include head.html %}
 
 <body>
+
+    <div id="company-form" style="text-align:center; padding: 50px;">
+      <h2>از طرف کدام شرکت برای برانداز رزومه بنده آمده‌اید؟</h2>
+      <input id="company-input" type="text" placeholder="مثلاً: آروان‌کلاد"
+             style="padding:10px; margin:10px;"
+             data-hidden="false" aria-label="نام شرکت">
+      <button onclick="submitCompany()" style="padding:10px 20px;">ورود</button>
+    </div>
+  
+    <div id="resume-content" style="display: none;">
+  
   <div class="wrapper">
     {% include sidebar.html %}
 
@@ -19,6 +30,54 @@
   {% include footer.html %}
 
 {% include scripts.html %}
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("kRuDetXnjDxg67Z0g"); // از داشبورد EmailJS بگیر
+  })();
+
+  function submitCompany() {
+    const company = document.getElementById('company-input').value.trim();
+
+    if (company.length > 1) {
+      localStorage.setItem('company', company);
+      sendEmail(company); // ← ایمیل ارسال کن
+      showResume();
+    } else {
+      alert('لطفاً نام شرکت را وارد کنید.');
+    }
+  }
+
+  function sendEmail(companyName) {
+    emailjs.send("service_3pqoz8b", "template_hagrq89", {
+      company_name: companyName,
+      time: Date.now(),
+      message: 'visited'
+
+    })
+    .then(function(response) {
+       console.log("ایمیل ارسال شد", response.status, response.text);
+    }, function(error) {
+       console.error("خطا در ارسال ایمیل", error);
+    });
+  }
+
+  function showResume() {
+    document.getElementById('company-form').style.display = 'none';
+    document.getElementById('resume-content').style.display = 'block';
+  }
+
+  window.onload = function () {
+    let company = localStorage.getItem('company')
+    if (company) {
+      sendEmail(company); // ← ایمیل ارسال کن
+      showResume();
+    }
+  };
+</script>
+
+  </div>
 </body>
 
 </html>
