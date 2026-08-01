@@ -1,0 +1,316 @@
+// Role Selector Styles
+.intro-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 12, 20, 0.4);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.5s ease;
+}
+
+.intro-content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.intro-header h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.intro-tagline {
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.intro-desc {
+  color: #34495e;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.intro-actions {
+  margin-top: 30px;
+}
+
+.sms-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.sms-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.sms-header h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.sms-desc {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.sms-message {
+  margin-top: 20px;
+  min-height: 24px;
+}
+
+.sms-message i.fa-spin {
+  color: #3498db;
+}
+
+.success-message {
+  color: #27ae60;
+  font-weight: 500;
+}
+
+.success-message strong {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+
+.sms-fallback {
+  color: #e67e22;
+  font-weight: 500;
+}
+
+.role-selector {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.role-selector h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.role-desc {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+}
+
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.role-card {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 25px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.role-card:hover {
+  border-color: #3498db;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.15);
+}
+
+.role-card.active {
+  border-color: #3498db;
+  background: #f0f8ff;
+  box-shadow: 0 5px 20px rgba(52, 152, 219, 0.2);
+}
+
+.role-symbol {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.role-title {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.role-tagline {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.role-content {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-left: 4px solid #3498db;
+}
+
+.role-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.role-header-symbol {
+  font-size: 3rem;
+  margin-right: 20px;
+}
+
+.role-header-title {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.role-header-tagline {
+  color: #3498db;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 0;
+}
+
+.role-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.role-bullets h4 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.role-bullets h4 i {
+  margin-right: 10px;
+  color: #3498db;
+}
+
+.role-bullets-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.role-bullets-list li {
+  padding: 10px 0;
+  padding-left: 25px;
+  position: relative;
+  color: #555;
+}
+
+.role-bullets-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.role-bullets-list li i {
+  color: #27ae60;
+  margin-right: 8px;
+}
+
+// Responsive styles for role selector
+@media (max-width: 768px) {
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .intro-content {
+    padding: 30px 20px;
+  }
+  
+  .intro-header h1 {
+    font-size: 2rem;
+  }
+  
+  .role-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .role-header-symbol {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

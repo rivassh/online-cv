@@ -1,0 +1,14 @@
+{% assign roles = site.data.data.roles %}
+<div id="role-selector" class="role-selector">
+  <h2 class="section-title"><i class="fas fa-briefcase"></i> Select Your Role</h2>
+  <p class="role-desc">Choose the role that best matches your needs to see the most relevant experience and skills.</p>
+  <div class="role-grid">
+    {% for role in roles.items %}
+    <div class="role-card" data-role-id="{{ role.id }}">
+      <div class="role-symbol">{{ role.symbol }}</div>
+      <h3 class="role-title">{{ role.title }}</h3>
+      <p class="role-tagline">{{ role.tagline }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -8,15 +8,15 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
     # Profile information
     name: Hamid Shariati
-    tagline: Developer
+    tagline: Senior Backend, Platform & Infrastructure Engineer
     avatar: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: me@hamidshariati.ir
-    # phone: 0910 78 708 67
+    email: hmdshariati@chmail.ir
+    phone: +98 910 787 0867
     timezone: Asia/Tehran
     citizenship: Islamic Republic of Iran
-    # website: HamidSharaiti.ir #do not add http://
+    website: cv1.hamidshariati.ir
     # linkedin: hmdshariati
     # xing: hmdshariati
     github: rivassh
@@ -46,19 +46,25 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Open Source
+          link:
+
+        - item: Infrastructure Automation
+          link:
+
+        - item: System Performance Optimization
           link:
 
 
 career-profile:
     title: Career Profile
     summary: |
-      After more than 10 years in software development industry,
-      I feel a good potential to navigate big projects, startups, challenges etc. 
-      One of my best achivements in life is handling family and work proffecionally.
-      I'd like to work remotely because I'm multitask personality and do not have good experiences with on-site teams.
-      Most of the time it waste my time to working in open office, except when I should teach others.
-      As I were mountain climber, I enjoy adventuring and walk on edge. But about production issues, I'm very sensitive to keep data and user experience safe.
+      Senior Backend, Platform & Infrastructure Engineer with 10+ years of experience in Linux/Windows server environments,
+      backend development, DevOps, and production support. Proven expertise in containerization (Docker, Kubernetes),
+      CI/CD pipelines (GitLab), database systems (PostgreSQL, MySQL, MSSQL, MongoDB), and cloud platforms (VMware, KVM, OpenStack).
+      Skilled in monitoring tools (Prometheus, Grafana, Zabbix), networking, and infrastructure troubleshooting.
+      Strong background in software development using PHP/Laravel, Python, and Java, with solid understanding of design patterns,
+      REST APIs, and clean code principles.
 
 education:
     title: Education
@@ -89,101 +95,98 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Fullstack Developer
-        time: 2022 - Present
-        company: Startup Drdr.ir, Tehran, Iran
+      - role: Senior Software Engineer / Platform Engineer
+        time: 2024 - Present
+        company: Sanaradyab, Tehran, Iran
+        tags: [devops, techlead, cto]
         details: |
-          As a developer I had to deliver some tasks in bothe backend and frontend at first.
-          After a while when the new version deployed on production, I started my work as a
-          backend developer specificly on laravel framework. Some of my specific point during 
-          this job are:
-            - working with Asterisk
-            - working with Design Patterns
-            - complete unit/feature test
-            - try to develop based on TDD
-      - role: Co-Founder - CTO 
+          - Platform engineering for scalable backend services
+          - Docker containerization and Kubernetes orchestration
+          - CI/CD pipeline development and maintenance with GitLab
+          - Production support and infrastructure optimization
+          - Monitoring with Prometheus, Grafana, and Zabbix
+      - role: Backend Engineer / Full-stack Engineer and IVR/Production Support
+        time: 2022 - 2024
+        company: DrDr.ir, Tehran, Iran
+        tags: [devops, support, techlead]
+        details: |
+          - Backend development using Laravel framework
+          - IVR system integration and support with Asterisk
+          - Unit and feature testing following TDD practices
+          - Application deployment and production troubleshooting
+          - REST API development and design patterns
+      - role: Co-Founder & Technical Lead
         time: 2020 - 2022
-        company: Startup Adilar.com, Tehran, Iran
+        company: Adilar.com, Tehran, Iran
+        tags: [techlead, cto, support]
         details: |
-          As a co-founder and CTO I managed the development of a lot of parts in adilar.com.
-          Adilar is an ATS for HR which enable recuritters to control workflows easily.
-          Some of best works that I have experieced in Adilar are:
-            - learn Laravel for the first time   # linkedin: hmdshariati
-            - running CI/CD with gitlab
-            - Docker and docker-compose on production
-            - learn to code with VueJs/NuxtJs
-      - role: Developer
+          - Technical leadership for startup development
+          - CI/CD implementation using GitLab
+          - Docker and Docker Compose for production deployments
+          - Tech stack: Laravel, Vue.js, Nuxt.js
+      - role: Software Developer
         time: 2016 - 2020
         company: IPM.ir, Tehran, Iran
+        tags: [devops, support]
         details: |
-          During 4 years experienced a lot of technologies with test and fail.
-          Based platform which we have worked on it is ProcessMaker.com. An opensource 
-          BPMN2 platform in PHP Language.
-          I have experienced in features bellow:
-            - ProcessMaker
-            - ExtJs
-            - Linux
-            - Git
-            - gitlab
-      - role: Supporter
+          - ProcessMaker BPMN2 platform development and customization
+          - ExtJS for frontend development
+          - Linux server administration
+          - Git and GitLab for version control
+          - PHP development for business process automation
+      - role: Customer Support Engineer
         time: 2015 - 2016
         company: TBCom.ir, Tehran, Iran
+        tags: [support]
         details: |
-          I started as an intern. After a while my dutiy was supporting client with phone and manage update patches. Fix some problems
-          I have experienced in features bellow:
-            - MS SQL Server
-            - Soft Skills
+          - Technical support for enterprise clients
+          - SQL database updates and maintenance
+          - MS SQL Server administration
+          - Client issue troubleshooting and resolution
       - role: IT Manager
         time: 2014 - 2014
-        company: Dinawin, Tehran, Iran
+        company: Dinavin, Tehran, Iran
+        tags: [support]
         details: |
-          As an IT Manager I was responsible to all of Issues about Network, Cameras, PCs and Servers
-          I have experienced in features bellow:
-            - ICDL
-            - Network+
-            - Server (Linux, Windows)
+          - Network infrastructure management
+          - Server administration (Linux and Windows)
+          - IP camera and surveillance system setup
+          - IT hardware support and maintenance
+      - role: Computer and Networking Instructor
+        time: 2008 - 2009
+        company: Marvi High School, Tehran, Iran
+        tags: [support]
+        details: |
+          - Computer science and networking instruction
+          - Curriculum development and student support
+      - role: Freelance Developer & DevOps Consultant
+        time: 2014 - Present
+        company: Self-Employed
+        tags: [devops, support, techlead, cto]
+        details: |
+          - Software development projects
+          - DevOps implementation and CI/CD pipeline setup
+          - Docker containerization and migration services
+          - ETL pipeline development
+          - Infrastructure troubleshooting and optimization
 
 
 certifications:
-      title: Certifications
-      list:
-        - name: Network+
-          start: 2014
-          end: 2014
-          organization: Noora
-          # credentialid: 111-222
-          credentialurl: nooranet.com
-          # credentialname: Google
-          # details: |
-          #   Details about cert. Lorem ipsum dolor sit amet, consectetur
-          #   adipiscing elit.
-          #   Nullam eget orci purus. Nullam ultrices neque nibh.
-          #   Aenean fermentum, felis vulputate suscipit accumsan,
-          #   sem enim bibendum augue, sed convallis arcu lacus at dui.
-          #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-          #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-          #   Praesent venenatis erat non augue suscipit consectetur.
-
-          #   Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-          #   fringilla vel. Ut euismod, sem sed vulputate venenatis,
-          #   justo diam viverra velit, sed rhoncus leo leo eu justo.
-          #   Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: LPIC1 & 2
-          start: 2014
-          end:
-          organization: Anisa
-          # credentialid: 111-222
-          credentialurl: lpir.org
-          # credentialname: Github
-          # details: |
-          #   Older certification. Lorem ipsum dolor sit amet, consectetur
-          #   adipiscing elit.
-          #   Nullam eget orci purus. Nullam ultrices neque nibh.
-          #   Aenean fermentum, felis vulputate suscipit accumsan,
-          #   sem enim bibendum augue, sed convallis arcu lacus at dui.
-          #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-          #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-          #   Praesent venenatis erat non augue suscipit consectetur.
+    title: Certifications
+    list:
+      - name: Network+
+        start: 2014
+        end: 2014
+        organization: Noora
+        credentialurl: nooranet.com
+      - name: LPIC-1
+        start: 2014
+        organization: Anisa
+        credentialurl: lpir.org
+      - name: LPIC-2
+        start: 2014
+        organization: Anisa
+        credentialurl: lpir.org
 
 # projects:
 #     title: Projects
@@ -254,121 +257,156 @@ certifications:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    
     title: Skills and Proficiency
     toolset:
       
       - name: Linux
-        level: 100%
+        level: Expert
 
-      - name: Docker
-        level: 100%
+      - name: Windows Server
+        level: Intermediate
 
-      - name: Git
-        level: 100%
+      - name: PHP/Laravel
+        level: Expert
+      - name: Python
+        level: Intermediate
+      - name: Java
+        level: Intermediate
 
-      - name: Gitlab
-        level: 80%
+      - name: DevOps & Production Support
+        level: Expert
 
-      - name: Github
-        level: 70%
+      - name: Docker & Kubernetes
+        level: Intermediate
+
+      - name: CI/CD (GitLab CI)
+        level: Intermediate
+
+      - name: PostgreSQL
+        level: Intermediate
+
+      - name: MySQL
+        level: Intermediate
+
+      - name: MSSQL
+        level: Intermediate
+
+      - name: MongoDB
+        level: Basic
 
       - name: Bash Scripting
-        level: 50%
-
-      - name: BPMS with ProcessMaker
-        level: 80%
-
-      - name: PHP, Laravel, Yii, Symfony etc.
-        level: 100%
-
-      - name: Python, Django, Flask etc.
-        level: 50%
-
-      - name: Java
-        level: 40%
-
-      - name: C++
-        level: 30%
-
-      - name: Design Patterns
-        level: 50%
-
-      - name: SOLID DRY KISS
-        level: 90%
-
-      - name: OOP
-        level: 67%
-
-      - name: MVC
-        level: 100%
-
-      - name: SOAP
-        level: 90%
-
-      - name: MYSQL
-        level: 100%
-
-      - name: Clean Code
-        level: 90%
+        level: Intermediate
 
       - name: REST API
-        level: 100%
+        level: Expert
 
-      - name: Javascript, jQuery, Bootstrap, VueJs etc
-        level: 80%
+      - name: Networking
+        level: Intermediate
 
-      - name: HTML5 & CSS & SASS
-        level: 95%
+      - name: Asterisk & Issabel
+        level: Intermediate
 
-      - name: Wordpress
-        level: 50%
+      - name: Nginx & HAProxy
+        level: Basic
 
-      - name: Ruby on Rails
-        level: 5%
+      - name: VMware & KVM
+        level: Intermediate
 
-      - name: Sketch, Photoshop, figma etc.
-        level: 30%
+      - name: OpenStack
+        level: Basic
 
-      - name: TDD & BDD
-        level: 100%
+      - name: Prometheus
+        level: Intermediate
 
-      - name: Team Lead
-        level: 70%
+      - name: Grafana
+        level: Intermediate
 
+      - name: Zabbix
+        level: Basic
 
-      - name: wordpress hooks
-        level: 50%
-    
-      - name: Elementor Pro
-        level: 20%
-    
-      - name: Technical SEO
-        level: 50%
-    
-      - name: woocommerce
-        level: 50%
-    
-      - name: WHM
-        level: 60%
-    
-      - name: Cpanel
-        level: 80%
+      - name: Troubleshooting
+        level: Expert
 
-      - name: Data structures and algorithm
-        level: 60%
-    
-      - name: Go Lang
-        level: 30%
+      - name: Deployment & Migration
+        level: Expert
 
-      - name: Kubernetes
-        level: 20%
+      - name: ETL
+        level: Intermediate
 
-      - name: React and Angular
-        level: 5%
-    
-      - name: Coaching
-        level: 20%
+      - name: Design Patterns
+        level: Intermediate
+
+      - name: Clean Code
+        level: Intermediate
+
+      - name: SQL
+        level: Intermediate
+
+      - name: Git
+        level: Expert
+
+      - name: Technical Support
+        level: Expert
+
+roles:
+    title: Professional Roles
+    items:
+      - id: devops
+        title: DevOps Engineer
+        symbol: 🚀
+        tagline: Infrastructure Reliability Specialist
+        headline: DevOps & Platform Engineer
+        bullets:
+          - Linux CLI, Docker, Kubernetes orchestration
+          - CI/CD pipelines with GitLab
+          - Monitoring with Prometheus, Grafana, Zabbix
+          - Nginx, HAProxy load balancing
+          - Infrastructure reliability and automation
+          - Work at Sanaradyab and DrDr.ir
+
+      - id: techlead
+        title: Tech Lead
+        symbol: 👨‍💻
+        tagline: Architecting Scalable Systems
+        headline: Technical Lead
+        bullets:
+          - Tech stack design and architecture decisions
+          - Team mentoring and technical leadership
+          - Code quality and best practices enforcement
+          - CI/CD implementation and DevOps culture
+          - Work at Adilar.com and Sanaradyab
+          - Laravel, Vue.js, Nuxt.js expertise
+
+      - id: cto
+        title: CTO
+        symbol: 🎯
+        tagline: Strategic Technical Decisions
+        headline: Chief Technology Officer
+        bullets:
+          - Strategic technical decisions aligned with business goals
+          - Product-minded engineering approach
+          - Resource optimization and team leadership
+          - Scaling infrastructure for growth
+          - Technical due diligence and risk assessment
+          - Work at Adilar.com
+
+      - id: support
+        title: Technical Support
+        symbol: 🛠️
+        tagline: Fast Incident Response
+        headline: Technical Support Engineer
+        bullets:
+          - IVR systems with Asterisk
+          - SQL troubleshooting (PostgreSQL, MySQL, MSSQL)
+          - Fast incident response and resolution
+          - Production support and debugging
+          - Client technical consultation
+          - Work at TBCom and DrDr.ir
+
+raygansms:
+    enabled: true
+    endpoint: "YOUR_GET_URL_HERE"
+    message_template: "Code: {code} | Welcome {company} to Hamid's Resume"
 
 footer: >
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

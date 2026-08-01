@@ -16,3 +16,4 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+@import "role-selector"; // multi-role selector styles

@@ -1,0 +1,23 @@
+{% assign sms = site.data.data.raygansms %}
+<div id="sms-section" class="sms-section" style="display: none;">
+  <div class="sms-container">
+    <div class="sms-header">
+      <h3><i class="fas fa-mobile-alt"></i> RayganSMS Integration</h3>
+      <p class="sms-desc">Please enter your company details to continue</p>
+    </div>
+    <form id="sms-form" class="sms-form">
+      <div class="form-group">
+        <label for="company-name"><i class="fas fa-building"></i> Company Name</label>
+        <input type="text" id="company-name" name="company" class="form-control" placeholder="Your company name" required>
+      </div>
+      <div class="form-group">
+        <label for="mobile-number"><i class="fas fa-phone"></i> Mobile Number</label>
+        <input type="tel" id="mobile-number" name="mobile" class="form-control" placeholder="e.g., 09123456789" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">
+        <i class="fas fa-paper-plane"></i> Send & Continue
+      </button>
+    </form>
+    <div id="sms-message" class="sms-message"></div>
+  </div>
+</div>
